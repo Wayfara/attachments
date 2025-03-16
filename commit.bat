@@ -14,4 +14,3 @@ REM Execute git push
 git push
 
 REM Pause to keep the command prompt open
-pause
