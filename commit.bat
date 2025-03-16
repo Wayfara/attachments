@@ -2,13 +2,14 @@
 REM Batch script to add, commit, and push changes to a Git repository
 
 REM Prompt for commit message
-set /p commitMessage="Enter commit message: "
+REM set /p commitMessage="Enter commit message: "
 
 REM Execute git add .
 git add .
 
 REM Execute git commit with the provided message
-git commit -m "%commitMessage%"
+REM git commit -m "%commitMessage%"
+git commit -m "Update"
 
 REM Execute git push
 git push
